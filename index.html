@@ -1,28 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <title>Mi proyecto</title>
+    <title>Sistema de Registro de Vehículos</title>
+
+    <style>
+        body { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif; margin:0; background:#3c90a8; }
+
+        header { background:#026d1d; color:rgb(6, 14, 19); text-align:center; padding:20px; }
+
+        nav { background:#8ebf88; text-align:center; padding:10px; position:sticky; top:0; }
+
+        nav a { color:rgb(93, 27, 216); margin:10px; text-decoration:none; font-weight:bold; }
+
+        section { padding:30px; }
+
+        article, aside {
+            background:rgb(170, 209, 239);
+            margin:10px 0;
+            padding:15px;
+            border-radius:10px;
+        }
+
+        img { width:350px; border-radius:10px; margin-top:10px; }
+
+        footer { background:#1f4e79; color:white; text-align:center; padding:10px; }
+    </style>
 </head>
+
 <body>
 
+<header>
+    <h1>Sistema de Registro de Vehículos</h1>
+</header>
 
-<h1>Sistema de Registro de Vehículos Desarrollo Web</h1>
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#quienes">Quiénes Somos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+</nav>
 
-<h2>Aplicación para administrar el ingreso y salida de vehículos en un parqueadero</h2>
+<main>
 
-<h3>Desarrollado por Ismenia Romero</h3>
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <article>
+            <p>
+                Bienvenidos al sistema de registro de vehículos, una herramienta digital para controlar el ingreso
+                y salida de vehículos en un parqueadero de forma eficiente y organizada.
+            </p>
+        </article>
+    </section>
 
-<h4>Objetivo del sistema</h4>
-<p>
-    Mejorar el control y organización del parqueadero mediante un registro digital sencillo.
-</p>
+    <section id="quienes">
+        <h2>Quiénes Somos</h2>
 
-<h4>Funciones principales</h4>
-<p>
-    Permite registrar placas, hora de entrada y salida de cada vehículo.
-</p>
+        <article>
+            <p>
+                Este proyecto tiene como objetivo desarrollar un sistema web para el control de vehículos en un
+                parqueadero. Permite registrar información como placa, hora de entrada y salida, mejorando la
+                organización y reduciendo errores. Además, facilita la gestión del tiempo de permanencia de los
+                vehículos y optimiza el uso del espacio disponible. Este sistema también tiene un propósito educativo,
+                ya que permite aplicar conocimientos de HTML5, estructura semántica y diseño web básico.
+                Su desarrollo ayuda a comprender cómo funciona una aplicación web real y fortalece habilidades en
+                programación.
+            </p>
 
+            <img src="img/carro.jpg" alt="Vehículo en parqueadero">
+        </article>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+
+        <article>
+            <ul>
+                <li>Registro de vehículos</li>
+                <li>Control de entradas y salidas</li>
+                <li>Historial de parqueadero</li>
+            </ul>
+
+            <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a" alt="Parqueadero">
+        </article>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+
+        <article>
+            <p>Email: contacto@parqueadero.com</p>
+            <p>Teléfono: +593 999 999 999</p>
+            <p>Dirección: Ambato - Ecuador</p>
+
+            <p>
+                <a href="#">Facebook</a> |
+                <a href="#">Instagram</a>
+            </p>
+
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/f_OVRZ-zc30"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+            </iframe>
+            </article>
+
+        <aside>
+            <h3>Información adicional</h3>
+            <p>Horario de atención: Lunes a viernes de 08:00 a 17:00.</p>
+        </aside>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Ismenia Romero - Desarrollo Web - 2026</p>
+</footer>
 
 </body>
 </html>
